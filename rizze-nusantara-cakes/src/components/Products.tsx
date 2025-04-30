@@ -12,7 +12,7 @@ export default function Products() {
   const categories = ["All", "Kue Basah", "Cupcake Nusantara", "Kue Buah Tradisional", "Camilan Manis"];
 
   return (
-    <section className="py-20 bg-[#fdfaf5]">
+    <section id="products" className="py-10 bg-[#fdfaf5]">
       <div className="max-w-7xl mx-auto px-4">
 
         {/* Filter Buttons */}

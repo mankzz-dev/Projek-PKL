@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
     return (
-        <section className="py-20 bg-gradient-to-r from--100 via-yellow-50 to-white">
+        <section id="contact" className="py-20 bg-gradient-to-r from--100 via-yellow-50 to-white">
             <div className="max-w-7xl mx-auto px-4">
 
                 {/* Section Title */}
@@ -62,7 +62,7 @@ export default function Contact() {
                 >
                     <div className="w-full sm:w-[90%] md:w-[80%] lg:w-[70%] h-80 rounded-xl overflow-hidden shadow-lg">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.049016347342!2d106.83923351508829!3d-6.4788795953146535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6991f70f244b6f%3A0x914c00b85fa7f65e!2sKota%20Cileungsi!5e0!3m2!1sid!2sid!4v1657063120455!5m2!1sid!2sid"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.906051296556!2d106.96393697317032!3d-6.40610346264901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6995d20156e367%3A0x5b7cd089c3c57813!2sSMK%20Bina%20Mandiri%20Multimedia%20Cileungsi!5e0!3m2!1sid!2sid!4v1745994495013!5m2!1sid!2sid"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}
