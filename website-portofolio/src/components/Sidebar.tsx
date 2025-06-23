@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
 import {
   FaHome,
   FaUserAlt,
@@ -8,17 +9,18 @@ import {
   FaLaptopCode,
 } from 'react-icons/fa';
 
-const navItems = [
-  { id: 'hero', icon: <FaHome size={24} />, label: 'Home' },
-  { id: 'about', icon: <FaUserAlt size={24} />, label: 'About' },
-  { id: 'skills', icon: <FaCode size={24} />, label: 'Skills' },
-  { id: 'experience', icon: <FaLaptopCode size={24} />, label: 'Experience' },
-  { id: 'projects', icon: <FaBriefcase size={24} />, label: 'Projects' },
-  { id: 'contact', icon: <FaMapMarkerAlt size={24} />, label: 'Contact' },
-];
-
 export default function Sidebar() {
+  const { t } = useTranslation();
   const [active, setActive] = useState('hero');
+
+  const navItems = useMemo(() => [
+    { id: 'hero', icon: <FaHome size={24} />, label: t('sidebar.home') },
+    { id: 'about', icon: <FaUserAlt size={24} />, label: t('sidebar.about') },
+    { id: 'skills', icon: <FaCode size={24} />, label: t('sidebar.skills') },
+    { id: 'experience', icon: <FaLaptopCode size={24} />, label: t('sidebar.experience') },
+    { id: 'projects', icon: <FaBriefcase size={24} />, label: t('sidebar.projects') },
+    { id: 'contact', icon: <FaMapMarkerAlt size={24} />, label: t('sidebar.contact') },
+  ], [t]); // <== ini penting agar ter-update saat bahasa berubah
 
   return (
     <>

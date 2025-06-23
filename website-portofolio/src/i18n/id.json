@@ -1,0 +1,155 @@
+{
+  "sidebar": {
+    "home": "Beranda",
+    "about": "Tentang",
+    "skills": "Keahlian",
+    "experience": "Pengalaman",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Selamat Datang di Portofolio Saya",
+    "description": "Saya adalah pengembang web yang bersemangat menciptakan pengalaman web modern dan interaktif.",
+    "cta": "Kenali Saya"
+  },
+  "about": {
+    "name": "Muhammad Rizqi Ramdhani",
+    "role": "Pengembang Web",
+    "from": "Asal",
+    "magelang": "Magelang",
+    "lives": "Tinggal di",
+    "cileungsi": "Cileungsi, Bogor",
+    "birthday": "Tanggal Lahir",
+    "birthDate": "19 September 2007",
+    "age": "Umur",
+    "gender": "Jenis Kelamin",
+    "male": "Laki-laki",
+    "bio": "Halo, nama saya Rizqi. Saya adalah siswa di SMK Bina Mandiri Multimedia. Saya seorang Pengembang Web yang masih belajar dan berkembang di bidang ini, serta memiliki sedikit pengalaman dalam desain web. Selamat datang di situs portofolio saya!",
+    "download_cv": "Unduh CV",
+    "download_wireframe": "Unduh Wireframe Saya"
+  },
+  "skills": {
+    "my_skills": "Keahlian Saya",
+    "coding_skills": "Keahlian Coding",
+    "design_skills": "Keahlian Desain",
+    "uiux_design": "Desain UI / UX",
+    "web_design": "Desain Web"
+  },
+  "summary": {
+    "title": "Ringkasan",
+    "items": [
+      {
+        "year": "2023-2026",
+        "title": "Sekolah Menengah Atas dan Setara",
+        "sub": "SMK Bina Mandiri Multimedia",
+        "desc": "Saya saat ini sedang menempuh pendidikan di SMK Bina Mandiri Multimedia pada jenjang sekolah menengah atas. Jurusan saya adalah rekayasa perangkat lunak. Saya adalah Frontend Developer."
+      },
+      {
+        "year": "2020-2023",
+        "title": "Sekolah Menengah Pertama dan Setara",
+        "sub": "SMP Negeri 4 Cileungsi",
+        "desc": "Saya menempuh pendidikan di SMP Negeri 4 Cileungsi pada jenjang sekolah menengah pertama. Alhamdulillah, saya hampir selalu hadir setiap hari saat KBM berlangsung. Saya juga kadang mengikuti lomba seperti lomba Adzan tingkat kecamatan."
+      },
+      {
+        "year": "2014-2020",
+        "title": "Sekolah Dasar dan Setara",
+        "sub": "SDIT Cikal Cendekia",
+        "desc": "Saya menempuh pendidikan di SDIT Cikal Cendekia pada jenjang sekolah dasar / setara. Alhamdulillah, saya selalu mendapat peringkat 1 atau 2 setiap tahunnya. Saya juga menjadi juara kelas 1 saat kelulusan. Selain itu sering mengikuti lomba O2SN."
+      },
+      {
+        "year": "2013-2014",
+        "title": "Taman Kanak-kanak dan Setara",
+        "sub": "TK Al-Komariah",
+        "desc": "Saya belajar di TK Al-Komariah. Tempat yang menyenangkan dimana saya belajar banyak hal baru, bermain bersama teman, dan mengikuti kegiatan seru seperti menyanyi, menggambar, dan bercerita. Gurunya ramah dan membuat belajar jadi menyenangkan. Banyak kenangan indah dari waktu itu."
+      }
+    ]
+  },
+  "experience": {
+    "summaryTitle": "Ringkasan",
+    "experienceTitle": "Pengalaman",
+    "summary": [
+      {
+        "year": "2023-2026",
+        "title": "Sekolah Menengah Atas dan Sederajat",
+        "sub": "SMK Bina Mandiri Multimedia",
+        "desc": "Saat ini saya bersekolah di SMK Bina Mandiri Multimedia pada tingkat SMA. Saya mengambil jurusan rekayasa perangkat lunak. Saya adalah seorang Frontend Developer."
+      },
+      {
+        "year": "2020-2023",
+        "title": "Sekolah Menengah Pertama dan Sederajat",
+        "sub": "SMP Negeri 4 Cileungsi",
+        "desc": "Saya bersekolah di SMP Negeri 4 Cileungsi pada tingkat SMP. Alhamdulillah, saya hampir selalu hadir setiap hari saat kegiatan belajar mengajar berlangsung. Saya juga kadang mengikuti lomba seperti lomba adzan tingkat kecamatan."
+      },
+      {
+        "year": "2014-2020",
+        "title": "Sekolah Dasar dan Sederajat",
+        "sub": "SDIT Cikal Cendekia",
+        "desc": "Saya bersekolah di SDIT Cikal Cendekia pada tingkat SD/sederajat. Alhamdulillah, saya selalu mendapat peringkat 1 atau 2 setiap tahunnya. Saya juga menjadi juara kelas saat kelulusan dan sering mengikuti lomba O2SN."
+      },
+      {
+        "year": "2013-2014",
+        "title": "Taman Kanak-Kanak dan Sederajat",
+        "sub": "TK Al-Komariah",
+        "desc": "Saya belajar di TK Al-Komariah. Ini adalah tempat yang menyenangkan di mana saya belajar banyak hal baru, bermain dengan teman-teman, dan mengikuti kegiatan seru seperti menyanyi, menggambar, dan mendongeng. Guru-gurunya baik dan pembelajaran sangat menyenangkan."
+      }
+    ],
+    "experience": [
+      {
+        "year": "2023-2024",
+        "title": "Anggota OSIS",
+        "sub": "OSIS SMK Bina Mandiri Multimedia",
+        "desc": "Saya menjabat sebagai anggota seksi bela negara. Di sini saya menjalankan program-program yang ada."
+      },
+      {
+        "year": "2024",
+        "title": "Panitia Keamanan BM3 Championship",
+        "sub": "Kejuaraan BM3",
+        "desc": "Saya bertugas sebagai panitia keamanan BM3 Championship. Tugas saya adalah menjaga kondisi dan keamanan suporter agar tidak terjadi kerusuhan selama acara berlangsung."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyek Saya",
+    "categories": {
+      "all": "Semua",
+      "website": "Website",
+      "figma": "Figma",
+      "game": "Game"
+    },
+    "list": [
+      {
+        "title": "Website Profil Perusahaan",
+        "description": "Profil Perusahaan - Pratinjau halaman (Beranda, Tentang, dll)"
+      },
+      {
+        "title": "Aplikasi Tiket Bus Mobile (Figma)",
+        "description": "Desain Figma untuk Aplikasi Mobile"
+      },
+      {
+        "title": "Game Edukasi",
+        "description": "Desain Game - Game Edukasi"
+      },
+      {
+        "title": "Website E-Commerce",
+        "description": "Website E-Commerce - Pratinjau halaman (Beranda, Produk, dll)"
+      },
+      {
+        "title": "Desain UI E-Commerce (Figma)",
+        "description": "Desain Figma untuk Website E-Commerce"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontak",
+    "description": "Ingin menghubungi saya? Silakan gunakan salah satu platform berikut:",
+    "whatsapp": "Chat via WhatsApp",
+    "instagram": "DM via Instagram"
+  },
+  "footer": {
+    "copyright": "© {{year}} Qii Portfolio. Semua hak dilindungi.",
+    "socialMedia": {
+      "instagramAlt": "Instagram",
+      "githubAlt": "GitHub"
+    }
+  }
+}

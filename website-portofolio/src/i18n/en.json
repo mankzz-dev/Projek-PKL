@@ -1,0 +1,126 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Welcome to My Portfolio",
+    "description": "I am a passionate developer creating modern and interactive web experiences.",
+    "cta": "Get to Know Me"
+  },
+  "about": {
+    "name": "Muhammad Rizqi Ramdhani",
+    "role": "Web Developer",
+    "from": "From",
+    "magelang": "Magelang",
+    "lives": "Lives in",
+    "cileungsi": "Cileungsi, Bogor",
+    "birthday": "Birthday",
+    "birthDate": "September 19, 2007",
+    "age": "Age",
+    "gender": "Gender",
+    "male": "Male",
+    "bio": "Hello, my name is Rizqi, and I am a student at Bina Mandiri Multimedia Vocational High School. I'm a Web Developer who is still learning and growing in this field, with a bit of experience in web design. Welcome to my portfolio website!",
+    "download_cv": "Download CV",
+    "download_wireframe": "Download My Wireframe"
+  },
+  "skills": {
+    "my_skills": "My Skills",
+    "coding_skills": "Coding Skills",
+    "design_skills": "Design Skills",
+    "uiux_design": "UI / UX Design",
+    "web_design": "Web Design"
+  },
+  "experience": {
+    "summaryTitle": "Summary",
+    "experienceTitle": "Experience",
+    "summary": [
+      {
+        "year": "2023-2026",
+        "title": "Senior High School and Equivalent",
+        "sub": "Bina Mandiri Multimedia Vocational High School",
+        "desc": "I am currently attending SMK Bina Mandiri Multimedia while I am at the senior high school level. I am majoring in software engineering. I am a Frontend Developer."
+      },
+      {
+        "year": "2020-2023",
+        "title": "Junior High School and Equivalent",
+        "sub": "Negeri 4 Cileungsi Junior High School",
+        "desc": "I attended SMP Negeri 4 Cileungsi at the junior high school level. At this level, Alhamdulillah, I am almost present every day when the KBM is held. I also sometimes participate in competitions such as the Adhan competition at the sub-district level."
+      },
+      {
+        "year": "2014-2020",
+        "title": "Primary School and Equivalent",
+        "sub": "Cikal Cendekia Integrated Islamic Primary School",
+        "desc": "I attended SDIT Cikal Cendekia at the elementary / equivalent level. At this level, Alhamdulillah, I always get 1st or 2nd place every year. I also won the first rank / champion in my class at graduation. Then I also often participate in O2SN competitions."
+      },
+      {
+        "year": "2013-2014",
+        "title": "Kindergarten and Equivalent",
+        "sub": "Al-Komariah Kindergarten",
+        "desc": "I studied at Al-Komariah Kindergarten. It was a wonderful place where I learned many new things, played with my friends, and joined fun activities like singing, drawing, and storytelling. The teachers were kind and always made learning fun. I have many happy memories from my time at Al-Komariah."
+      }
+    ],
+    "experience": [
+      {
+        "year": "2023-2024",
+        "title": "OSIS Member",
+        "sub": "Member of The OSIS Bina Mandiri Multimedia Vocational High School",
+        "desc": "I served as a member of the state defence section. Here I run the existing programmes."
+      },
+      {
+        "year": "2024",
+        "title": "BM3 Championship Safety Committee",
+        "sub": "BM3 Championship",
+        "desc": "I am in charge of the BM3 Championship Security committee. My job is to secure or condition the supporters so that there is no chaos when the event is taking place."
+      }
+    ]
+  },
+  "projects": {
+    "title": "My Projects",
+    "categories": {
+      "all": "All",
+      "website": "Website",
+      "figma": "Figma",
+      "game": "Game"
+    },
+    "list": [
+      {
+        "title": "Company Profile Website",
+        "description": "Company Profile - Preview of pages (Home, About, etc)"
+      },
+      {
+        "title": "Mobile Bus Ticket App (Figma)",
+        "description": "Figma Design of Mobile App"
+      },
+      {
+        "title": "Education Game",
+        "description": "Game Design - Education Game"
+      },
+      {
+        "title": "E-Commerce Website",
+        "description": "E-Commerce Website - Preview of pages (Home, Product, etc)"
+      },
+      {
+        "title": "E-Commerce UI Design (Figma)",
+        "description": "Figma Design of E-Commerce Website"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "description": "Want to contact me? Please use one of the following platforms:",
+    "whatsapp": "Chat via WhatsApp",
+    "instagram": "DM via Instagram"
+  },
+  "footer": {
+    "copyright": "© {{year}} Qii Portfolio. All rights reserved.",
+    "socialMedia": {
+      "instagramAlt": "Instagram",
+      "githubAlt": "GitHub"
+    }
+  }
+}
