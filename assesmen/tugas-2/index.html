@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI-Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans">
+    <header>
+        <!-- membuat header/navbar dengan div sintaks flex yaitu konten terbagi menjadi terbagi dua kanan dan kiri, serta items-center agar konten berada di tengah2 navbar serta text diberi warna putih dan background biru dgn sedikit shadow -->
+        <div class="container flex py-3 px-10 bg-blue-900 text-white shadow-xl items-center mx-auto justify-between">
+            <!-- membuat judul serta navlink dengan memakai flex lagi jadi semua horizontal dan diposisikan di tengah navbar -->
+            <div class="flex items-center">
+                <!-- membuat style judul teks menjadi semibold dan ukurannya large -->
+                <span class="font-semibold text-lg">PT. LSKK</span>
+                <!-- membuat navlink dari list, yg awalnya vertikal menjadi horizontal dgn menggunakan flex -->
+                <ul class="flex text-sm space-x-10 mr-auto pl-10">
+                    <li><a href="#hero" class="border-b-2 border-transparent hover:border-blue-500">Beranda</a></li>
+                    <li><a href="#" class="border-b-2 border-transparent hover:border-blue-500">Tentang Kami</a></li>
+                    <li><a href="#" class="border-b-2 border-transparent hover:border-blue-500">Layanan</a></li>
+                    <li><a href="#" class="border-b-2 border-transparent hover:border-blue-500">Kontak</a></li>
+                </ul>
+            </div>
+            <!-- membuat button dgn sintaks "a" yg di style menjadi seperti button -->
+            <a href="#"
+                class="bg-white rounded-sm px-4 py-2 text-blue-800 font-semibold items-center hover:bg-white/90">Hubungi
+                Kami</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- membuat section hero dengan flex agar horizontal lagi dan justify between yang membagi dua konten -->
+        <section id="hero" class="mb-10 flex justify-between gap-5">
+            <!-- membuat div pertama dengan isi card memanjang dan grid, panjangnya hanya 70% -->
+            <div class="w-[70%] shadow-xl p-5 mt-10 ml-5 rounded-md">
+                <div class="bg-blue-100 py-9 rounded-md mb-5 text-black px-4 leading-tight">
+                    <h1 class="font-bold text-xl">Selamat Datang di PT. LSKK</h1>
+                    <p class="text-sm text-gray-700">
+                        PT. LSKK (Layanan Sosial Kreatif & Konsultan) adalah perusahaan yang bergerak di bidang
+                        pengembangan teknologi, konsultasi IT, dan solusi digital untuk bisnis modern.
+                    </p>
+                </div>
+                <!-- membuat grid dengan 3 kolom untuk isi konten, dan diberi gap agar masing2 kolom terdapat jaraknya -->
+                <div class="grid grid-cols-3 gap-6 py-5">
+                    <div class="bg-white border border-blue-100 p-5 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800">Konsultasi IT</h1>
+                        <p class="text-sm text-gray-700">Memberikan solusi terbaik untuk transformasi digital perusahaan
+                            Anda, dari perencanaan hingga eksekusi.</p>
+                    </div>
+                    <div class="bg-white border border-blue-100 p-5 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800">Pengembangan Web</h1>
+                        <p class="text-sm text-gray-700">Kami mengembangkan website yang modern, responsif, dan sesuai
+                            kebutuhan bisnis anda.</p>
+                    </div>
+                    <div class="bg-white border border-blue-100 p-5 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800">Desain Kreatif</h1>
+                        <p class="text-sm text-gray-700">Layanan desain branding, UI/UX, dan materi promosi digital
+                            dengan pendekatan estetik dan fungsional.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- membuat sidebar dengan ukuran 28% agar ada jarak sedikit dengan konten di sebelahnya -->
+            <div class="w-[28%] bg-blue-100 shadow-xl ml-auto mt-10 mr-5 rounded-md p-5">
+                <h2 class="font-bold text-lg mb-3 text-left text-blue-800">Berita & Portofolio</h2>
+
+                <!-- membuat bungkusan lagi/div di dalam sidebar agar terlihat seperti card -->
+                <div class="bg-white rounded-md p-3 mt-3">
+                    <h1 class="text-md text-blue-800 font-semibold">Peluncuran Sistem Smart City</h1>
+                    <p class="text-sm text-gray-700">PT. LSKK sukses mengimplementasikan solusi Smart City di Bandung.
+                    </p>
+                </div>
+                <div class="bg-white rounded-md p-3 mt-3">
+                    <h1 class="text-md text-blue-800 font-semibold">Website Instansi Pemerintah</h1>
+                    <p class="text-sm text-gray-700">Kami dipercaya membangun portal resmi Dinas Kominfo Jawa Tengah.
+                    </p>
+                </div>
+                <div class="mt-5">
+                    <a href="#">
+                        <p class="text-blue-800 text-sm text-center">Lihat Semua Produk → </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- membuat footer dengan flex yaitu menjadi horizontal dan semua konten berada di tengah dgn justify center -->
+    <footer class="bg-blue-800 py-5 px-10">
+        <ul class="flex space-x-5 text-white justify-center">
+            <li>&copy; 2025 PT.LSKK</li>
+            <li>Kebijakan Privasi</li>
+            <li>Syarat Layanan</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

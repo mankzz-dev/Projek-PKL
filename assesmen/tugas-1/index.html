@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI-Website</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="font-sans">
+    <header>
+        <!-- membuat header/navbar dengan div sintaks flex yaitu konten terbagi menjadi terbagi dua kanan dan kiri, serta items-center agar konten berada di tengah2 navbar serta text diberi warna putih dan background biru dgn sedikit shadow -->
+        <div class="container flex py-3 px-10 bg-blue-900 text-white shadow-xl items-center mx-auto justify-between">
+            <!-- membuat judul serta navlink dengan memakai flex lagi jadi semua horizontal dan diposisikan di tengah navbar -->
+            <div class="flex items-center">
+                <!-- membuat style judul teks menjadi semibold dan ukurannya large -->
+                <span class="bg-gray-500 px-10 py-5 rounded-xl "></span>
+                <!-- membuat navlink dari list, yg awalnya vertikal menjadi horizontal dgn menggunakan flex -->
+                <ul class="flex text-sm space-x-10 mr-auto pl-10">
+                    <li><a href="#hero"
+                            class="bg-gray-500 px-10 py-1 rounded-xl border-b-2 border-transparent hover:border-blue-500"></a>
+                    </li>
+                    <li><a href="#"
+                            class="bg-gray-500 px-10 py-1 rounded-xl border-b-2 border-transparent hover:border-blue-500"></a>
+                    </li>
+                    <li><a href="#"
+                            class="bg-gray-500 px-10 py-1 rounded-xl border-b-2 border-transparent hover:border-blue-500"></a>
+                    </li>
+                    <li><a href="#"
+                            class="bg-gray-500 px-10 py-1 rounded-xl border-b-2 border-transparent hover:border-blue-500"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- membuat button dgn sintaks "a" yg di style menjadi seperti button -->
+            <a href="#"
+                class="bg-gray-500 px-10 py-5 rounded-xl  text-blue-800 font-semibold items-center hover:bg-white/90">
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <!-- membuat section hero dengan flex agar horizontal lagi dan justify between yang membagi dua konten -->
+        <section id="hero" class="mb-10 flex justify-between gap-5">
+            <!-- membuat div pertama dengan isi card memanjang dan grid, panjangnya hanya 70% -->
+            <div class="w-[70%] shadow-xl p-5 mt-10 ml-5 rounded-md">
+                <div class="bg-blue-100 py-20 rounded-md mb-5 text-black px-4 leading-tight">
+                    <h1 class="font-bold text-xl"></h1>
+                    <p class="text-sm text-gray-700">
+
+                    </p>
+                </div>
+                <!-- membuat grid dengan 3 kolom untuk isi konten, dan diberi gap agar masing2 kolom terdapat jaraknya -->
+                <div class="grid grid-cols-3 gap-6 py-5">
+                    <div class="bg-blue-100 px-5 py-20 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800"></h1>
+                        <p class="text-sm text-gray-700"></p>
+                    </div>
+                    <div class="bg-blue-100 px-5 py-20 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800"></h1>
+                        <p class="text-sm text-gray-700"></p>
+                    </div>
+                    <div class="bg-blue-100 px-5 py-20 rounded-md">
+                        <h1 class="text-md font-semibold text-blue-800"></h1>
+                        <p class="text-sm text-gray-700"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- membuat sidebar dengan ukuran 28% agar ada jarak sedikit dengan konten di sebelahnya -->
+            <div class="w-[28%] bg-blue-100 shadow-xl ml-auto mt-10 mr-5 rounded-md p-5">
+                <h2 class="font-bold text-lg mb-3 text-left bg-blue-200 rounded-xl p-5 text-blue-800"></h2>
+
+                <!-- membuat bungkusan lagi/div di dalam sidebar agar terlihat seperti card -->
+                <div class="">
+                    <h1 class="text-md text-blue-800 font-semibold mb-3 bg-blue-300 rounded-xl p-5"></h1>
+                    <h1 class="text-md text-blue-800 font-semibold mb-3 bg-blue-300 rounded-xl p-5"></h1>
+                    <h1 class="text-md text-blue-800 font-semibold mb-3 bg-blue-300 rounded-xl p-5"></h1>
+                    <h1 class="text-md text-blue-800 font-semibold mb-3 bg-blue-300 rounded-xl p-5"></h1>
+                    <h1 class="text-md text-blue-800 font-semibold mb-3 bg-blue-300 rounded-xl p-5"></h1>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- membuat footer dengan flex yaitu menjadi horizontal dan semua konten berada di tengah dgn justify center -->
+    <footer class="bg-blue-800 py-5 px-10">
+        <ul class="flex space-x-5 text-white justify-center">
+            <li class="bg-gray-700 px-10 py-3 rounded-xl"></li>
+            <li class="bg-gray-700 px-10 py-3 rounded-xl"></li>
+            <li class="bg-gray-700 px-10 py-3 rounded-xl"></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDoList</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<!-- membuat bg menjadi gradient -->
+<body class="min-h-screen bg-gradient-to-tr from-blue-300 to-white flex items-center justify-center">
+  <div class="bg-white rounded-xl p-6 w-full max-w-md shadow-lg">
+    
+    <h1 class="text-purple-400 text-center font-semibold text-md">CatatQu</h1>
+    <h1 class="text-black text-center font-bold text-3xl">Daftar Tugas MandiriQu</h1>
+
+    <!-- form untuk input tugas -->
+    <form id="task-form" class="flex mb-4 gap-2 mt-5">
+      <input id="task-input" type="text" placeholder="Catat tugas baru di sini"
+        class="flex-1 border rounded px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        autocomplete="off">
+      <button type="submit"
+        class="bg-purple-500 text-white font-semibold px-4 py-2 rounded-xl hover:bg-purple-600">
+        Tambah
+      </button>
+    </form>
+
+    <!-- alert/pemberitahuan jika ada yang error ataupun kosong -->
+    <div id="alert" class="hidden mb-4 text-red-600 text-sm"></div>
+
+    <!-- list untuk tugas2 nanti -->
+    <ul id="task-list" class="space-y-2 mb-6"></ul>
+
+    <!-- rekap tugas yang sudah di input -->
+    <div class="bg-gray-50 rounded p-4 text-sm flex flex-col gap-1 text-center font-semibold">
+      <div class="text-black">Total tugas: <span id="total-tasks">0</span></div>
+      <div class="text-green-500">Tugas selesai: <span id="completed-tasks">0</span></div>
+      <div class="text-red-600">Tugas belum selesai: <span id="pending-tasks">0</span></div>
+    </div>
+  </div>
+
+  <!-- import javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>

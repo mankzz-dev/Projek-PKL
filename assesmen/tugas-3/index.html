@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+</head>
+
+<!-- mengatur font dan warna text -->
+<body class="text-white font-poppins">
+    <!-- mengatur isi navbar -->
+    <nav class="absolute w-full px-20 py-8 z-10 flex items-center justify-between">
+        <!-- membuat logo dan judul agar berjejer menggunakan flex -->
+        <div class="flex items-center gap-4">
+            <div class="w-10 h-10 rounded-full overflow-hidden">
+                <img src="assets/Group 1.png" alt="Logo" class="w-full h-full object-cover">
+            </div>
+            <h1 class="text-xl font-bold">RumahQu</h1>
+        </div>
+        <ul class="flex gap-6">
+            <li><a href="#beranda" class="hover:font-bold">Beranda</a></li>
+            <li><a href="#layanan" class="hover:font-bold">Layanan</a></li>
+            <li><a href="#fitur" class="hover:font-bold">Fitur</a></li>
+            <li><a href="#kontak" class="hover:font-bold">Kontak</a></li>
+        </ul>
+
+        <div class="flex gap-4">
+            <a href="#"
+                class="px-6 py-2 rounded hover:bg-white hover:text-green-500 hover:font-semibold transition">Daftar</a>
+            <a href="#"
+                class="px-6 py-2 rounded hover:bg-white hover:text-green-500 hover:font-semibold transition">Masuk</a>
+        </div>
+    </nav>
+
+    <main>
+        <section id="beranda" class="h-screen bg-cover bg-center flex items-center"
+            style="background-image: url('assets/Group%208.png');">
+            <div class="mt-10 ml-20 mb-36 space-y-6 text-white">
+                <div>
+                    <h1 class="text-5xl font-bold leading-tight">Membantu Temukan</h1>
+                    <h1 class="text-5xl font-bold leading-tight">Rumah Impian.</h1>
+                </div>
+                <p class="max-w-md">
+                    <span class="font-bold">Rumah Impian</span> hadir untuk temukan rumah terbaik
+                    untukmu, untuk dijual ataupun disewa dengan sumber terpercaya.
+                </p>
+
+                <div class="flex items-center">
+                    <a href="#"
+                        class="inline-block bg-white text-[#048853] font-bold px-6 py-3 rounded-sm shadow hover:bg-gray-100 transition">
+                        Temukan Rumah
+                    </a>
+                    <a href="#">
+                        <img src="assets/eva_arrow-ios-forward-fill.svg" alt="Panah" class="ml-5 w-10 h-10" />
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="layanan" class="bg-[#F3FFF4] min-h-screen flex-col justify-center text-center">
+            <div class="pt-28 space-y-2">
+                <h1 class="text-[#0F0488] text-4xl font-bold">Layanan Kami</h1>
+                <p class="text-black">Rumah impian hadir menjadi solusi bagi kamu</p>
+            </div>
+
+            <div class="grid grid-cols-3 gap-5 mt-10 px-14 pb-24">
+                <div class="py-20 px-14 shadow bg-gradient-to-br from-[#007298] to-black/80 transition rounded">
+                    <div class="space-y-3">
+                        <img src="assets/assets 1.png" alt="" class="bg-[#00985B] p-1 rounded-full w-14 h-14 mx-auto">
+                        <h1 class="text-lg font-bold">Property Baru</h1>
+                        <p class="text-sm">
+                            Rumah impian kini jadi kenyataan, Beli
+                            rumah bary dengan fasilitas terbaik
+                            dengan lingkungan yang nyaman.
+                        </p>
+                    </div>
+                </div>
+                <div class="py-20 px-14 shadow bg-[#FFFFFF] rounded">
+                    <div class="space-y-3">
+                        <img src="assets/house 1.png" alt="" class="rounded-full w-14 h-14 mx-auto">
+                        <h1 class="text-lg font-bold text-[#00985B]">Sewa Rumah</h1>
+                        <p class="text-sm text-black">
+                            Sewa rumah yang indah untuk keluarga
+                            anda, pilihan terbaik untuk tempat
+                            tinggal keluarga mu.
+                        </p>
+                    </div>
+                </div>
+                <div class="py-20 px-14 shadow bg-[#FFFFFF] rounded">
+                    <div class="space-y-3">
+                        <img src="assets/town 1.png" alt=""
+                            class="bg-[#00985B] object-cover p-1 rounded-full w-14 h-14 mx-auto">
+                        <h1 class="text-lg font-bold text-[#00985B]">Beli Rumah</h1>
+                        <p class="text-sm text-black">
+                            Beli Rumah sempurna dengan harga
+                            terbaik kualitas terjamin dari sumber
+                            terpercaya.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="h-screen bg-cover bg-center flex items-center pb-10"
+            style="background-image: url('assets/green-interior-modern-interior-living-room-style-with-soft-sofa-green-wall-3d-rendering%201.png');">
+
+            <div class="mx-auto w-full px-20">
+                <div class="text-center max-w-2xl mx-auto space-y-4 text-white mb-10">
+                    <h1 class="text-5xl font-bold">Temukan Rumah Impianmu</h1>
+                    <p class="text-lg">
+                        Sekarang Anda dapat menghemat semua hal stres, waktu, dan biaya tersembunyi, dengan ratusan
+                        rumah
+                        untuk Anda.
+                    </p>
+                </div>
+
+                <div class="overflow-hidden w-full max-w-6xl mx-auto">
+                    <div class="inline-flex bg-white/50 rounded-t-lg shadow-lg">
+                        <button class="px-6 py-3 font-semibold text-[#0F0488]">Jual</button>
+                        <button class="px-6 py-3 font-semibold text-gray-600">Sewa</button>
+                        <button class="px-6 py-3 font-semibold text-gray-600 rounded-tr-lg">Property Baru</button>
+                    </div>
+
+                    <div class="flex">
+                        <div class="bg-white/50 rounded-bl-lg shadow-lg flex-grow">
+                            <div class="flex items-center justify-between px-6 py-4 gap-4">
+                                <div class="flex items-center gap-2 text-[#0F0488] font-medium">
+                                    <img src="assets/ant-design_home-outlined.svg" alt="Tipe Rumah" class="w-5 h-5" />
+                                    <span>Tipe Rumah</span>
+                                    <span class="ml-1">▼</span>
+                                </div>
+
+                                <div class="flex items-center gap-2 text-[#0F0488] font-medium">
+                                    <img src="assets/akar-icons_money.svg" alt="Range Harga" class="w-5 h-5" />
+                                    <span>Range Harga</span>
+                                    <span class="ml-1">▼</span>
+                                </div>
+
+                                <input type="text" placeholder="cari berdasarkan lokasi, ID, Property"
+                                    class="flex-grow border-none outline-none text-[#0F0488] px-4 py-2 bg-transparent placeholder:text-[#0F0488]" />
+                            </div>
+                        </div>
+
+                        <button class="bg-[#0F0488] text-white font-bold px-8 py-6 h-full rounded-r-lg shadow-lg">
+                            Cari
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="bg-[#F3FFF4] min-h-screen">
+            <div class="pt-20">
+                <h1 class="text-[#044288] text-4xl font-bold text-center">Rekomendasi Rumah Untuk Mu</h1>
+            </div>
+
+            <div class="grid grid-cols-3 gap-6 px-6 py-10">
+                <div class="bg-white rounded-sm shadow-md overflow-hidden">
+                    <img src="assets/image 15.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-black font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-black">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-red-600 font-semibold">Sewa</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">3</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="rounded-sm shadow-md overflow-hidden bg-gradient-to-br from-[#002198] via-[#00985B] to-[#000000]">
+                    <img src="assets/image 12.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-white font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-white">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-red-600 font-semibold">Jual</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium bg-white mb-4">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black"></p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-sm shadow-md overflow-hidden">
+                    <img src="assets/image 9.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-black font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-black">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-[#00985B] font-semibold">Property Baru</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">3</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-sm shadow-md overflow-hidden">
+                    <img src="assets/image 10.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-black font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-black">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-red-600 font-semibold">Sewa</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">3</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-sm shadow-md overflow-hidden">
+                    <img src="assets/image 14.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-black font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-black">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-red-600 font-semibold">Sewa</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">3</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-sm shadow-md overflow-hidden">
+                    <img src="assets/image 11.png" alt="Rumah Modern" class="w-full h-60 object-cover">
+
+                    <div class="p-4">
+                        <h2 class="text-lg text-black font-bold">IDR.200.000.000</h2>
+                        <p class="text-sm text-black">Jl. Soekarno Hatta No.1</p>
+                        <p class="text-sm text-red-600 font-semibold">Sewa</p>
+                    </div>
+
+                    <div class="flex justify-between text-center px-4 py-3 border-t text-sm font-medium">
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/mdi_bed.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">3</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Tidur</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fa-solid_bath.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">4</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Kamar Mandi</span>
+                        </div>
+                        <div class="flex flex-col gap-1">
+                            <div class="flex gap-3">
+                                <img src="assets/fluent_globe-surface-20-filled.svg" alt="Kamar Tidur" class="w-5 h-5">
+                                <p class="text-black">360m</p>
+                            </div>
+                            <span class="text-xs text-gray-600">Luas Rumah</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center pb-20">
+                <a href="#" class="text-black">Lihat Lainnya...</a>
+            </div>
+
+        </section>
+
+        <section id="fitur" class="py-16 bg-[#F3FFF4] relative z-10">
+            <div class="flex items-center justify-between px-6 mb-10">
+                <h2 class="text-3xl font-bold text-blue-600 ml-16">Fitur Rumah</h2>
+                <a href="#" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded font-medium shadow mr-16">
+                    Lihat Lainnya
+                </a>
+            </div>
+
+            <div class="relative max-w-6xl mx-auto">
+                <button id="fitur-prev"
+                    class="absolute left-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 shadow rounded-full w-12 h-12 flex items-center justify-center transition">
+                    <i class="bi bi-chevron-left text-2xl text-white font-bold"></i>
+                </button>
+
+                <div id="fitur-carousel" class="flex overflow-x-auto gap-8 scrollbar-hide scroll-smooth px-16">
+                    <div class="relative group w-[300px] h-[500px] flex-shrink-0 shadow-lg bg-gray-200">
+                        <img src="assets/image 13.png"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+                        <div
+                            class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-2xl font-bold mb-2">Rumah Minimalis</h3>
+                            <p class="mb-1">Tipe 36</p>
+                            <p class="mb-4 font-semibold">IDR.200.000.000</p>
+                            <a href="#"
+                                class="bg-white text-[#0b0b61] px-5 py-2 rounded font-bold shadow hover:bg-gray-200 transition">Lihat
+                                Rumah</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group w-[300px] h-[500px] flex-shrink-0 shadow-lg bg-gray-200">
+                        <img src="assets/image 17.png"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+                        <div
+                            class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-2xl font-bold mb-2">Rumah Modern</h3>
+                            <p class="mb-1">Tipe 45</p>
+                            <p class="mb-4 font-semibold">IDR.350.000.000</p>
+                            <a href="#"
+                                class="bg-white text-[#0b0b61] px-5 py-2 rounded font-bold shadow hover:bg-gray-200 transition">Lihat
+                                Rumah</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group w-[300px] h-[500px] flex-shrink-0 shadow-lg bg-gray-200">
+                        <img src="assets/image 18.png"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+                        <div
+                            class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-2xl font-bold mb-2">Rumah Klasik</h3>
+                            <p class="mb-1">Tipe 60</p>
+                            <p class="mb-4 font-semibold">IDR.500.000.000</p>
+                            <a href="#"
+                                class="bg-white text-[#0b0b61] px-5 py-2 rounded font-bold shadow hover:bg-gray-200 transition">Lihat
+                                Rumah</a>
+                        </div>
+                    </div>
+
+                    <div class="relative group w-[300px] h-[500px] flex-shrink-0 shadow-lg bg-gray-200">
+                        <img src="assets/image 16.png"
+                            class="w-full h-full object-cover transition duration-300 group-hover:scale-105" />
+                        <div
+                            class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition flex flex-col justify-center items-center text-white text-center">
+                            <h3 class="text-2xl font-bold mb-2">Rumah Tropis</h3>
+                            <p class="mb-1">Tipe 75</p>
+                            <p class="mb-4 font-semibold">IDR.650.000.000</p>
+                            <a href="#"
+                                class="bg-white text-[#0b0b61] px-5 py-2 rounded font-bold shadow hover:bg-gray-200 transition">Lihat
+                                Rumah</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button id="fitur-next"
+                    class="absolute right-4 top-1/2 -translate-y-1/2 z-10 bg-blue-600 shadow rounded-full w-12 h-12 flex items-center justify-center transition">
+                    <i class="bi bi-chevron-right text-2xl text-white font-bold"></i>
+                </button>
+
+                <script>
+                    const fiturCarousel = document.getElementById("fitur-carousel");
+                    document.getElementById("fitur-prev").onclick = () => {
+                        fiturCarousel.scrollBy({ left: -520, behavior: "smooth" });
+                    };
+                    document.getElementById("fitur-next").onclick = () => {
+                        fiturCarousel.scrollBy({ left: 520, behavior: "smooth" });
+                    };
+                </script>
+            </div>
+        </section>
+
+        <section id="kontak" class="relative h-screen">
+            <img src="assets/image 20.png" alt="Background" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-black/60"></div>
+
+            <div class="absolute inset-0 flex items-center justify-between px-20">
+                <div class="text-white space-y-6 w-1/2">
+                    <h1 class="text-4xl font-bold leading-tight">
+                        Butuh Konsultasi..? <br />
+                        Silahkan kontak kami <br />
+                        Kami Siap Membantu
+                    </h1>
+
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2">Kontak</h2>
+                        <div class="space-y-5 text-sm">
+                            <div class="flex gap-3 items-center">
+                                <img src="assets/Vector.svg" alt="Telepon" class="w-6 h-6">
+                                <p>
+                                    Jl. Pelajar Pejuang 123, Bandung <br>
+                                    Indonesia
+                                </p>
+                            </div>
+                        </div>
+                        <div class="flex gap-3 items-center">
+                            <img src="assets/Group.svg" alt="Telepon" class="w-6 h-6">
+                            <p>
+                                022-6545-2041
+                            </p>
+                        </div>
+
+                        <div class="flex gap-3 items-center">
+                            <img src="assets/Vector (1).svg" alt="Telepon" class="w-6 h-6">
+                            <p>
+                                rumahQu@gmail.com
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h2 class="text-lg font-semibold mb-2">Social Media</h2>
+                        <div class="flex items-center gap-4 text-xl">
+                            <a href="#">
+                                <img src="assets/Vector (2).svg" alt="Facebook">
+                            </a>
+                            <a href="#">
+                                <img src="assets/Group (1).svg" alt="Facebook">
+                            </a>
+                            <a href="#">
+                                <img src="assets/Group (2).svg" alt="Facebook">
+                            </a>
+                            <span class="text-sm">@RumahQu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-lg p-8 w-[400px] shadow-lg">
+                    <h2 class="text-2xl font-bold text-[#0F0488] mb-6 text-center">ada pertanyaan..?</h2>
+                    <form class="space-y-4">
+                        <input type="email" placeholder="Masukan email anda disini..."
+                            class="w-full px-4 py-3 bg-gray-200 placeholder-gray-500 text-sm rounded" />
+                        <textarea placeholder="Pertanyaan Anda.."
+                            class="w-full px-4 py-3 bg-gray-200 placeholder-gray-500 text-sm rounded resize-none h-28"></textarea>
+                        <button type="submit" class="w-full bg-[#0F0488] text-white py-3 font-bold rounded">
+                            Kirim
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="bg-black text-white p-6">
+            <div class="flex items-center justify-between mb-4">
+                <div class="w-8 flex gap-5">
+                    <img src="assets/Group 1.png" alt="logo" class="w-full h-auto" />
+                    <h1 class="text-lg font-bold">RumahQu</h1>
+                </div>
+                <ul class="flex gap-6 text-sm font-semibold">
+                    <li><a href="#beranda" class="hover:underline">Beranda</a></li>
+                    <li><a href="#layanan" class="hover:underline">Layanan</a></li>
+                    <li><a href="#fitur" class="hover:underline">Fitur</a></li>
+                    <li><a href="#kontak" class="hover:underline">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="text-center text-xs text-gray-400">
+                &copy; 2025 All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
